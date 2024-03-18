@@ -2,12 +2,12 @@ let usernameElement = document.querySelector("#username");
 let respostaBruxa = document.querySelector("#resposta");
 let botaoEnviar = document.querySelector("#botao");
 
-/* const colocarNomeNaTela = () => {
+const colocarNomeNaTela = () => {
   let nome = prompt("Qual o seu nome?");
   nome === null || nome === "" ? (nome = "estranho") : (usernameElement.textContent = nome);
 };
 
-colocarNomeNaTela(); */
+colocarNomeNaTela();
 
 
 const gerarNumeroAleatorio = () => {
